@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: echo a string
-        run: echo "some string"
+        run: eccho "some string"
       - name: multiline script
         run: |
           node -v
